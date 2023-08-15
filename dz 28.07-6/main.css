@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    border: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttom{
+    display: flex;
+}
+.buttomRed,.buttomGreen,.buttomBlue,.buttomEllow{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttomBlue{
+    background-color: blue;
+}
+.buttomEllow{
+    background-color: gold;
+}
+.buttomGreen{
+    background-color:green;
+}
+.buttomRed{
+    background-color: red;
+}
+.ulS{
+    display: flex;
+}
+.ilSRed{
+    color: red;
+}
+.ilSBlue{
+    color: blue;
+}
+.ilSEllow{
+    color:gold;
+}
+.ilSGreen{
+    color:green;
+}
